@@ -38,14 +38,6 @@ python -m venv .venv
 .venv\Scripts\python build.py     # → dist\GetUpAndStretch.exe
 ```
 
-### 릴리스 만들기
-`v`로 시작하는 태그를 push하면 GitHub Actions가 exe를 빌드해서 Releases에 올립니다.
-
-```powershell
-git tag v1.0.0
-git push origin v1.0.0
-```
-
 ---
 
 ## English
@@ -78,14 +70,6 @@ Requires Python 3.10+.
 python -m venv .venv
 .venv\Scripts\pip install -r requirements.txt
 .venv\Scripts\python build.py     # → dist\GetUpAndStretch.exe
-```
-
-### Making a release
-Pushing a tag that starts with `v` makes GitHub Actions build the exe and attach it to a release.
-
-```powershell
-git tag v1.0.0
-git push origin v1.0.0
 ```
 
 ---
